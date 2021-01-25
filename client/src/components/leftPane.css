@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+#image {
+  border-radius: 50%;
+  /* border: 2px solid #ff4d00; */
+  width: 45%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  cursor: pointer;
+  vertical-align: middle;
+  align-items: center;
+  /* position: absolute; */
+}
+
+#image:hover {
+  /* width: 40%; */
+  transform: scale(1.12);
+}
+
+#box1 {
+  margin-bottom: 1%;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+#line1 {
+  text-align: center;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+#line3 {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0px;
+  margin-top: 0px;
+  /* font-weight: bold; */
+}
+
+#bio,
+#followers,
+#following,
+#repos,
+#gists,
+#starred,
+#duration,
+#bar {
+  opacity: 0.75;
+  cursor: pointer;
+  transition: 0.2s;
+  border: transparent !important;
+}
+
+#bio:hover,
+#followers:hover,
+#following:hover,
+#repos:hover,
+#gists:hover,
+#starred:hover,
+#duration:hover {
+  opacity: 1;
+}
+
+#box3 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+b {
+  font-size: 18px;
+  font-family: Menlo, Monaco, monospace;
+}
+
+#leftpane {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  border-style: solid;
+  /* border-color: #eb5a1c; */
+  border-color: #212121;
+  border-width: 1px;
+  border-radius: 25px;
+  max-width: 90%;
+  margin: auto;
+  /* margin-top: 40px; */
+  margin-top: 9%;
+  font-family: "Poppins", sans-serif;
+}
+
+#box2 {
+  background-color: #eb5a1c;
+  align-self: center;
+  width: 80%;
+  /* height: 200px; */
+  margin: auto;
+  border-radius: 25px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#box2:hover {
+  transform: scale(1.1);
+}
+
+#box22 {
+  background-color: #eb5a1c;
+  align-self: center;
+  width: 80%;
+  /* height: 200px; */
+  margin: auto;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+#box22:hover {
+  cursor: no-drop;
+}
+
+#username {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  border-collapse: separate !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(20, 20, 20, 1);
+  border-width: 3px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  transition: 0.4s;
+}
+
+table:hover {
+  border-color: black;
+  /* color: #eb5a1c; */
+}
+
+#tablehead {
+  font-weight: bold;
+  background-color: rgba(20, 20, 20, 1);
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.4s;
+  color: white;
+}
+
+table:hover #tablehead {
+  background-color: black;
+}

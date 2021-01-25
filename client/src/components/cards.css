@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+#header {
+  font-size: x-large;
+  text-align: left;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+#card {
+  border: 2px solid #212121;
+  /* border: none; */
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  align-content: center;
+  transition: 0.1s;
+  /* width: 100px; */
+  display: flex;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block; */
+}
+
+#card > span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#card:hover {
+  border-color: #db4200;
+  transform: scale(1.07);
+}
+
+#card:hover #name {
+  color: #db4200;
+}
+
+#content {
+  width: 100%;
+}
+
+#name,
+#details {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#lang {
+  background-color: #fcba03;
+}
+
+#forks {
+  background-color: #12b80f;
+}
+
+#stars {
+  background-color: #0fb2b8;
+}
+
+.tags {
+  font-size: small;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 1%;
+  /* border-radius: 10%; */
+}
+
+#viewmore {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  /* transition-duration: 0.2s; */
+}
+
+#viewmore:hover {
+  color: #db4200;
+}

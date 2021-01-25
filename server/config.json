@@ -1,0 +1,7 @@
+{
+  "clientUrl": "http://localhost:3000",
+  "serverPort": 3900,
+  "client_id": "xxx",
+  "client_secret": "xxx",
+  "db": "mongodb://localhost/gitgallop"
+}

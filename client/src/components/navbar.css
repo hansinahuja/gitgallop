@@ -1,0 +1,75 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: neon;
+  src: url(assets/hellodenverdisplayregular_v1.6.ttf);
+}
+
+#exit {
+  color: white;
+  font-size: 42px;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#exit:hover {
+  color: #ed8936;
+  /* font-size: 42px; */
+}
+
+.logo {
+  text-align: left;
+  /* width: 65%; */
+  height: 56px;
+  user-select: none;
+}
+
+.logo b {
+  font: 30 48px "Vibur";
+  font-family: neon;
+  vertical-align: middle;
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4d00, 0 0 0.5em #ff4d00,
+    0 0 0.1em #ff4d00;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+#users,
+#repos,
+#starred {
+  border: 2px solid #212121;
+  /* border: none; */
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  align-content: center;
+  transition: 0.1s;
+}
+
+#users:hover {
+  border-color: #db4200;
+  transform: scale(1.05);
+}
+
+#none {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+#tag {
+  color: #212121;
+  font-weight: bold;
+  transition: 0.1s;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 3%;
+}
+
+#users:hover #tag {
+  color: #db4200;
+}
+
+#users:hover #none {
+  color: #db4200;
+}
+
+#users:hover #tag:after {
+  content: " »";
+}
+
+#row2 {
+  margin-top: 2%;
+}
+
+#repogif {
+  height: 170px;
+  /* position: absolute; */
+}
+
+#stargif {
+  margin: auto;
+  height: 170px;
+  /* position: absolute; */
+}
+
+.ir1 {
+  height: 170px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ir2 {
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img1 {
+  background-image: url("assets/img1.png");
+}
+
+.u1:hover #img1 {
+  background-image: url("assets/img1h.gif");
+}
+
+#img2 {
+  background-image: url("assets/img2.png");
+}
+
+.u2:hover #img2 {
+  background-image: url("assets/img2h.gif");
+}
+
+#img3 {
+  background-image: url("assets/img3.png");
+}
+
+.u3:hover #img3 {
+  background-image: url("assets/img3h.gif");
+}
